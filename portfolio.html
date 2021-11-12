@@ -1,46 +1,85 @@
 <!doctype html>
-	<html lang="en">
-	  <head>
-	    <meta charset="utf-8">
-	    <title>Erica's Portfolio</title>
-	  </head>
-	  <body bgcolor="gray">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Erica's Portfolio</title>
+
+    <style>
+	body, html {
+		height: 100%;
+	}
+        h1 {
+        	color: black;
+        }
+	h2 {
+		color: #3D3D3D;
+	}
+        p {
+        	color: gray;
+        }
+        a {
+		color: #9CC5C5;
+	}
+	a:visited {
+		color: #CBCBCB;
+	}
+
+	.parallax {
+		/* The image used */
+		background-image: url("sky.jfif");
+
+		/* Full height */
+		height: 25%;
+
+		/*Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+    </style>  
+
+  </head>
+  <body>
     <a title="Home" style="font-family:verdana;" href="index.html">Home</a>
     <a title="Portfolio" style="font-family:verdana;" href="portfolio.html">Portfolio</a>
     <a title="About Me" style="font-family:verdana;" href="aboutme.html">About Me</a>
-    <h1 style="color:lightgray;">This is my Portfolio Page!</h1>
+    <h1 style="font-size: 40px">This is my Portfolio Page!</h1>
+  
     <br>
+    <div class="parallax"></div>
+      
     <center>
-    <h1 style="color:lightgray;">Project 1</h1>
-    <img src = "images/projectone.png" height="400">
-    <p style="color:white;">The program accepts inputs of the number of scoops and flavors for the ice cream cone from the user. <br>The program then uses turtle to draw the ice cream cone, adding a scoop of ice cream on top with a different color for each flavor. <br>The scoops get smaller as more are added. Then, it adds a cherry on top.</p>
-    <h1 style="color:lightgray;">Project 2</h1>
-    <img src = "images/projecttwo.png" height="400">
-    <p style="color:white;">When the program is run, it shows the main menu, which allows you to select a game mode or see the instructions by clicking different buttons. <br>The different game modes allow for 12, 18, and 24 cards. The first player gets to select 2 cards first, and if they match, then they are awarded a point. <br>If they do not match, then Player 2 chooses 2 cards. This continues until all cards have been matched. The player with more points at the end wins.</p>
-    <h1 style="color:lightgray;">Project 3</h1>
-    <iframe src="https://scratch.mit.edu/projects/587046869/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <p style="color:white;">In this Casino game, you can bet money on the slots machine, or on fights on the TV. But be careful! If you lose too much, you'll lose the game!</p>
-    <h1 style="color:lightgray;">Project 4</h1>
-    <img src = "images/projectthree.jpg" height="400">
-    <p style="color:white;">After analysing the data, we decided that it best matched the description of the desert plains. The light is not low, as described in the Inland Forests or Marsh Lands, and there is no indication of clouds, as described in the Rocky Mountains. <br>The temperature does not “cool off quickly” like in the Tropical Islands, so the only option that remained was the Desert Plains.</p>
-    </center>			  
-    <!--<img src="images/portfolio.jpg" height="250">
-    <br>
-    <h1>   Second day scratch project.</h1>
-    <br>
-    <h1>   Using App Inventor to make app game Duck Hunter.</h1>
-    <br>
-    <h1>   Interactive Fiction Rags to Riches.</h1>
-    <br>
-    <h1>   Black Jack game written in Python.</h1>
-    <br>
-    <h1>   Modified bits in pictures.</h1>
-    <br>
-    <h1>   Use data files to create graphs.</h1>
-    <br>
-    <h1>   Using netlogo do remix of illusions.</h1>
-    <h1>   Interactive Fiction Rags to Riches.</h1>
-    <br>
-    -->
-	  </body>
-	</html>
+      <h2><b>Project 1</b></h2>
+      <img src = "images/projectone.png" height="400">
+      <p>The program accepts inputs of the number of scoops and flavors for the ice cream cone from the user. <br>The program then uses turtle to draw the ice cream cone, adding a scoop of ice cream on top with a different color for each flavor. <br>The scoops get smaller as more are added. Then, it adds a cherry on top.</p>
+    </center>
+      
+    <div class="parallax"></div>
+    
+    <center>
+      <h2><b>Project 2</b></h2>
+      <img src = "images/projecttwo.png" height="400">
+      <p>When the program is run, it shows the main menu, which allows you to select a game mode or see the instructions by clicking different buttons. <br>The different game modes allow for 12, 18, and 24 cards. The first player gets to select 2 cards first, and if they match, then they are awarded a point. <br>If they do not match, then Player 2 chooses 2 cards. This continues until all cards have been matched. The player with more points at the end wins.</p>
+    </center>    
+
+      <div class="parallax"></div>
+
+    <center>
+      <h2><b>Project 3</b></h2>
+      <iframe src="https://scratch.mit.edu/projects/587046869/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <p>In this Casino game, you can bet money on the slots machine, or on fights on the TV. But be careful! If you lose too much, you'll lose the game!</p>
+    </center>
+
+    <div class="parallax"></div>
+    
+    <center>
+      <h2><b>Project 4</b></h2>
+      <img src = "images/projectthree.jpg" height="400">
+      <p>After analysing the data, we decided that it best matched the description of the desert plains. The light is not low, as described in the Inland Forests or Marsh Lands, and there is no indication of clouds, as described in the Rocky Mountains. <br>The temperature does not “cool off quickly” like in the Tropical Islands, so the only option that remained was the Desert Plains.</p>
+    </center>
+
+    <div class="parallax"></div>
+        
+  </body>
+</html>
