@@ -5,9 +5,26 @@
     <title>Hello! Home Page</title>
   </head>
   <style>
-  img {
-    border: 10px solid #8F9087;
-  }
+	img {
+		border: 10px solid #8F9087;
+	}
+	.title-hover {
+		font-size: 200px;
+  		color: #8F9087;
+	}
+	.title-hover:hover {
+		font-size: 200px;
+  		color: #707168;
+		background-color:#E2E4D4;
+	}
+	.line-hover {
+  		color: #8F9087;
+		background-color:#8F9087;
+	}
+	/*.line-hover:hover {
+  		color: #707168;
+		background-color:#707168;
+	}*/
   /*
   .house {
     width: 1200px;
@@ -15,16 +32,16 @@
   }
   #house1 {
     down:400;
-  }
+  }*/
   .house {
     width: 1200px;
     height: 800px;
-    background: url("house-image.jpg") no-repeat;
+    background: url("images/house-image1.jpg") no-repeat;
   }
   .house:hover {
-    background: url("house-image2.jpg") no-repeat;
+    background: url("images/house-image2.gif") no-repeat;
   }
-  */
+  
   </style>
   <body bgcolor="F3F4E2">
       <a title="Home" style="font-family:verdana;" href="index.html">Home</a>
@@ -33,13 +50,15 @@
 
     <center>
       <br><br><br>
-      <div style="color:#8F9087; background-color:#8F9087;"> .</div>
-      <div style="font-size:200px; color:#8F9087;">Home Page</div>
-      <br>
-      <div style="color:#8F9087; background-color:#8F9087;"> .</div>
+      <div class='line-hover'> .</div>
+      <div class='title-hover' title="Home Page"><span>Home Page</span></div>
+      <div class='line-hover'> .</div>
+
       <br><br><br><br>
+	<! -<div class="house"></div>-->
+
       <img src="images/house-image.jpg" usemap="#housemap">
-      <div usemap="#housemap" class="house"></div>
+      <div usemap="#housemap"></div>
       <map name="housemap">
       <area title="click here" shape="rect" coords="570,400,660,570" alt="pumpkin" href="pumpkin.html">
       <br>
