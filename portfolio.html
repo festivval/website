@@ -2,69 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello! Home Page</title>
-  </head>
-  <style>
+    <title>The Portfolio</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Unica+One">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Arima+Madurai">
+    <style>
+	body, html {
+		height: 100%;
+	}
+        h1 {
+        	color: #A5A5A5;
+		font-family: 'Unica One', serif;
+		font-size: 50px;
+        }
+	h2 {
+		color: #3D3D3D;
+		font-family: 'Unica One', serif;
+                font-size: 40px;
+	}
+        p {
+        	color: gray;
+		font-family: 'Arima Madurai', serif;
+		font-size: 20px;
+        }
 	img {
-		border: 10px solid #8F9087;
+		border: 5px solid #DADADA
 	}
-	.title-hover {
-		font-size: 200px;
-  		color: #8F9087;
+	iframe {
+		border: 5px solid #DADADA
 	}
-	.title-hover:hover {
-		font-size: 200px;
-  		color: #707168;
-		background-color:#E2E4D4;
+	.bottom {
+		color: white;
+		font-size:5px;
 	}
-	.line-hover {
-  		color: #8F9087;
-		background-color:#8F9087;
+        a {
+		color: #9CC5C5;
 	}
-	/*.line-hover:hover {
-  		color: #707168;
-		background-color:#707168;
-	}*/
-  /*
-  .house {
-    width: 1200px;
-    height: 800px;
-  }
-  #house1 {
-    down:400;
-  }*/
-  .house {
-    width: 1200px;
-    height: 800px;
-    background: url("images/house-image1.jpg") no-repeat;
-  }
-  .house:hover {
-    background: url("images/house-image2.gif") no-repeat;
-  }
-  
-  </style>
-  <body bgcolor="F3F4E2">
-      <a title="Home" style="font-family:verdana;" href="index.html">Home</a>
-      <a title="Portfolio" style="font-family:verdana;" href="portfolio.html">Portfolio</a>
-      <a title="About Me" style="font-family:verdana;" href="aboutme.html">About Me</a>
+	a:visited {
+		color: #CBCBCB;
+	}
+
+	.parallax {
+		/* The image used */
+		background-image: url("images/sky.jfif");
+
+		/* Full height */
+		height: 25%;
+
+		/*Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+    </style>  
+
+  </head>
+  <body>
+	 <div style="background-color: #F5F5F5">
+   	   <a title="Home" style="font-family:verdana;" href="index.html">Home</a>
+   	   <a title="Portfolio" style="font-family:verdana;" href="portfolio.html">Portfolio</a>
+   	   <a title="About Me" style="font-family:verdana;" href="aboutme.html">About Me</a>
+	   <center><h1>This is my Portfolio Page!</h1></center><br>
+	 </div><br>
+    <div class="parallax"></div>
+      
+    <center>
+      <h2><b>Project 1</b></h2>
+      <img src = "images/projectone.png" height="400">
+      <p>The program accepts inputs of the number of scoops and flavors for the ice cream cone from the user. <br>The program then uses turtle to draw the ice cream cone, adding a scoop of ice cream on top with a different color for each flavor. <br>The scoops get smaller as more are added. Then, it adds a cherry on top.</p>
+    </center>
+      
+    <div class="parallax"></div>
+    
+    <center>
+      <h2><b>Project 2</b></h2>
+      <img src = "images/projecttwo.png" height="400">
+      <p>When the program is run, it shows the main menu, which allows you to select a game mode or see the instructions by clicking different buttons. <br>The different game modes allow for 12, 18, and 24 cards. The first player gets to select 2 cards first, and if they match, then they are awarded a point. <br>If they do not match, then Player 2 chooses 2 cards. This continues until all cards have been matched. The player with more points at the end wins.</p>
+    </center>    
+
+      <div class="parallax"></div>
 
     <center>
-      <br><br><br>
-      <div class='line-hover'> .</div>
-      <div class='title-hover' title="Home Page"><span>Home Page</span></div>
-      <div class='line-hover'> .</div>
-
-      <br><br><br><br>
-	<! -<div class="house"></div>-->
-
-	<img src="images/house-image.jpg" usemap="#housemap">
-	<div usemap="#housemap"></div>
-	<map name="housemap">
-	<area title="click here" shape="rect" coords="570,400,660,570" alt="pumpkin" href="pumpkin.html">
-	<area title="click here" shape="rect" coords="400,173,480,300" alt="portfolio" href="portfolio.html">
-	<area title="click here" shape="rect" coords="753,173,833,300" alt="portfolio" href="portfolio.html">
-	<br>
-	<a style="font-family:garamond;color:#8F9087; font-size:40px;"><b>a house</b></a>
+      <h2><b>Project 3</b></h2>
+      <iframe src="https://scratch.mit.edu/projects/587046869/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <p>In this Casino game, you can bet money on the slots machine, or on fights on the TV. But be careful! If you lose too much, you'll lose the game!</p>
     </center>
+
+    <div class="parallax"></div>
+    
+    <center>
+      <h2><b>Project 4</b></h2>
+      <img src = "images/projectthree.jpg" height="400">
+      <p>After analysing the data, we decided that it best matched the description of the desert plains. <br>The light is not low, as described in the Inland Forests or Marsh Lands, and there is no indication of clouds, as described in the Rocky Mountains. <br>The temperature does not “cool off quickly” like in the Tropical Islands, so the only option that remained was the Desert Plains.</p>
+    </center>
+	  
+    <div class="parallax"></div>
+    
+    <center>
+      <h2><b>Project 5</b></h2>
+      <img src = "images/projectfour.jpg" height="400">
+      <p>Using the pandas and matplotlib python modules, we organized the data of honey production (obtained from USDA)<br> into three graphs for the different states, with low honey producers, medium honey producers, and high producers.</p>
+    </center>
+
+    <div class="parallax"></div>
+    <div style="background-color: white; height:5px"><p class="bottom">a</p></div>
+        
   </body>
 </html>
