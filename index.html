@@ -1,53 +1,53 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Hello! Home Page</title>
-  </head>
-  <style>
-	img {
-		border: 10px solid #8F9087;
-		transition: 0.3s;
-	}
-	img:hover {
-		border: 10px solid #707168;
-	}
-	.title-hover {
-		font-size: 200px;
-  		color: #8F9087;
-		transition: 0.3s;
-	}
-	.title-hover:hover {
-		font-size: 200px;
-  		color: #707168;
-		background-color:#E2E4D4;
-	}
-	.line {
-  		color: #8F9087;
-		background-color:#8F9087;
-	}
-  
-  </style>
-  <body bgcolor="F3F4E2">
-      <a title="Home" style="font-family:verdana;" href="index.html">Home</a>
-      <a title="Portfolio" style="font-family:verdana;" href="portfolio.html">Portfolio</a>
-      <a title="About Me" style="font-family:verdana;" href="aboutme.html">About Me</a>
-
-    <center>
-      <br><br><br>
-      <div class='line'> .</div>
-      <div class='title-hover' title="Home Page"><span>Home Page</span></div>
-      <div class='line'> .</div>
-
-      <br><br><br><br>
-
-	<img src="images/house-image.jpg" usemap="#housemap">
-	<div usemap="#housemap"></div>
-	<map name="housemap">
-	<area title="click here" shape="rect" coords="570,400,660,570" alt="pumpkin" href="bees.html">
-	<area title="click here" shape="rect" coords="400,173,480,300" alt="portfolio" href="portfolio.html">
-	<area title="click here" shape="rect" coords="753,173,833,300" alt="portfolio" href="aboutme.html">
-	<br>
-    </center>
-  </body>
+<!DOCTYPE html>
+<html>
+<head></head>
+<style>
+html, body {
+    margin: 0;
+    height: 100%;
+}
+#bigname {
+    position: fixed;
+    color: gray;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#name {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: red;
+    width: 170px;
+    font-size: 32px;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+let v = 1;
+$(document).ready(function() {
+    let x = 0; let y = 0;
+    let vx = v; let vy = -v;
+    setInterval(function() {
+        let rect = $("html")[0].getBoundingClientRect();
+        x = x + vx;
+        y = y + vy;
+        $("#name").css('left', x);
+        $("#name").css('top', y);
+        if(x < rect.x - 5) vx = v;
+        else if(x > rect.x + rect.width - 160) vx = -v;
+        if(y < rect.y - 10) vy = v;
+        else if(y > rect.y + rect.height - 30) vy = -v;
+    }, 10);
+});
+</script>
+<body>
+<div id="bigname">
+<div style="font-size:100px"><b>Erica Wang</b></div>
+<br>
+<a href="legacy/index.html" style="font-size:20px">Legacy Website (2022)</a>
+</div>
+<div id="name"><b>Erica Wang</b></div>
+</body>
 </html>
