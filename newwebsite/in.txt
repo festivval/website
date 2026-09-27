@@ -1,0 +1,69 @@
+Erica Wang
+status: eternally unemployed
+**
+paid experience:
+- Undergraduate Learning Assistant [UCSB CS]
+- Student Aide (Rocketry) [Gateways Summer School]
+
+nonpaid experience:
+- Event Supervisor/Proctor [Science Olympiad Inc]
+- Test Writer [Science Olympiad Inc]
+- Tournament Director [Quizbowl]
+- President [Quizbowl]
+- Mentor/Panelist/Judge [CipherHacks 2026]
+- Treasurer [Science Olympiad Club]
+- Event Lead (Codebusters B/C, Cell Biology C, Microbe Mission C) [Science Olympiad Club]
+- Arcade Gambler [personal]
+
+projects:
+2026
+- Impressionist: paint program [COMP 4411] *Cpp *OpenGL
+- new website generator: generates this page from .txt [personal] *Cpp
+- (bolunwebsite)<https://bolunthompson.github.io/bolunwebsite/>: Windows NT inspired portfolio website [personal] *HTML *CSS *JavaScript
+- Claw: parallel HNSW program adapted from Wolverine(Zheng et al.) [CS 274] *Cpp
+- SystemF interpreter: terrible implementation with no proofs!!!!! [CSCS 130E] *OCaml
+- (Still Counts)<https://festivval.github.io/cs185-website/>: an "app" to maintain, not just grow, your goals [CS 185] *Figma *Google Slides
+- KOS: operating system for MIPS with read/write, multiprogramming, pipes [CS 170] *C
+- λ+ interpreter: type checker, evaluator, type inference [CS 162] *OCaml
+- (Train Simulator)<https://devpost.com/software/train-simulator>: the American Experience [SB Hacks XII] *Rust
+
+2025
+- C♭ compiler: lexer/parser, type checker, codegen, gc runtime [CS 160] *Cpp
+- simple blockchain: Paxos consensus, 5 servers (run locally) [CS 171] *Python
+- Sandwich Conquerors: sandwich-themed 3D FPS [ECE 184] *Unity *C-sharp
+- (Escaping Earth Z)<https://github.com/festivval/escaping-earth-z>: endless 2D zombie shooter for Winter Project Series [ACM at UCSB] *Unity *C-sharp
+- (My Automation App)<https://devpost.com/software/ai-project-0vk4yw>: productivity "app" [SB Hacks XI] *Python *HTML *CSS *JavaScript *Electron
+
+2024
+- XPATHTEST: web scraper that scrapes all professor names/research areas into .txt or .csv; works for UCLA/UCSB [personal] *Java *Selenium
+- (Question of the Month)<https://festivval.github.io/qotm/>: a bad website [personal] *HTML *CSS
+
+2023
+- (sillyducks shop)<https://devpost.com/software/sillyducks-shop>: useless website that sells useless rubber ducks [Hack the Wave] *HTML *CSS
+- eliminations: spreadsheet of Senior Assasins eliminations/bounties + stats (manual update, auto format w/ formulas) [personal] *Google Sheets
+- (SCIOLY-sogolytics)<https://github.com/festivval/SCIOLY-sogolytics>: converts sogolytics form output to more readable format for Science Olympiad team member event assignment [personal] *Java
+- (Dunlea Diner)<https://github.com/BolunThompson/dunlea-diner>: Overcooked ripoff [AP CSA] *Java *libGDX
+
+2022
+- (old website)<https://festivval.github.io/website/legacy/index.html>: uses area tags! [AP CSP] *HTML *CSS
+
+2021
+- (Block Letter Emojis)<https://scratch.mit.edu/projects/504761089/>: create emoji block art for Discord [personal] *Scratch
+- Ballerina Flier: my magnum opus [personal] *Scratch
+
+2020
+- (Butterfly Rescue Ultra)<https://scratch.mit.edu/projects/424082933/>: game with epic thumbnail [personal] *Scratch
+
+2019
+- CC Lighting Rounds: autoreader tool to practice for in-class history competition [personal] *Scratch
+- (LASER DUCK CHASE)<https://scratch.mit.edu/projects/317993176/>: LASER DUCK CHASE [personal] *Scratch
+
+2018
+- (Avoid the Lasers!)<https://scratch.mit.edu/projects/238775549/>: avoid lasers across 5 lanes as they get faster [personal] *Scratch
+
+2016
+- (Quest Game)<https://scratch.mit.edu/projects/113257978/>: treasure, tension, toils... [personal] *Scratch
+- (Flying Penguin)<https://scratch.mit.edu/projects/133924739/>: take care of a flying penguin [personal] *Scratch
+
+2015
+- (ICE CREAM MAKER)<https://scratch.mit.edu/projects/88938460/>: my most viral project [personal] *Scratch

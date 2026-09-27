@@ -1,0 +1,43 @@
+[org] color: #616161; font-family: calibri, sans-serif
+[tag] color: #A6A6A6; font-family: courier new; padding-left: 10px
+#[Gateways Summer School] color: #16594a
+
+[Science Olympiad Inc] color: #84c932
+[Science Olympiad Club] color: #7b00ff
+[Quizbowl] color: #86181a
+
+<personal>
+[personal] color: #f24bd4
+
+<hackathon>
+[CipherHacks 2026]
+[SB Hacks XII]
+[SB Hacks XI]
+[Hack the Wave]
+color: #f79036
+
+<club>
+[Science Olympiad Inc]
+[Quizbowl]
+[ACM at UCSB]
+[Science Olympiad Club]
+padding: 0;
+
+<other>
+[Gateways Summer School]
+padding: 0;
+
+<school>
+[UCSB CS]
+[COMP 4411]
+[CS 274]
+[CSCS 130E]
+[CS 185]
+[CS 170]
+[CS 162]
+[CS 160]
+[CS 171]
+[ECE 184]
+[AP CSA]
+[AP CSP]
+color: #025ba1;

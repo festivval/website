@@ -1,0 +1,84 @@
+.org {
+     color: #616161;
+     font-family: calibri, sans-serif
+}
+.tag {
+     color: #A6A6A6;
+     font-family: courier new;
+     padding-left: 10px
+}
+.Science-Olympiad-Inc {
+     color: #84c932
+}
+.Science-Olympiad-Club {
+     color: #7b00ff
+}
+.Quizbowl {
+     color: #86181a
+}
+.personal {
+     color: #f24bd4
+}
+.CipherHacks-2026 {
+    color: #f79036
+}
+.SB-Hacks-XII {
+    color: #f79036
+}
+.SB-Hacks-XI {
+    color: #f79036
+}
+.Hack-the-Wave {
+    color: #f79036
+}
+.Science-Olympiad-Inc {
+    padding: 0;
+}
+.Quizbowl {
+    padding: 0;
+}
+.ACM-at-UCSB {
+    padding: 0;
+}
+.Science-Olympiad-Club {
+    padding: 0;
+}
+.Gateways-Summer-School {
+    padding: 0;
+}
+.UCSB-CS {
+    color: #025ba1;
+}
+.COMP-4411 {
+    color: #025ba1;
+}
+.CS-274 {
+    color: #025ba1;
+}
+.CSCS-130E {
+    color: #025ba1;
+}
+.CS-185 {
+    color: #025ba1;
+}
+.CS-170 {
+    color: #025ba1;
+}
+.CS-162 {
+    color: #025ba1;
+}
+.CS-160 {
+    color: #025ba1;
+}
+.CS-171 {
+    color: #025ba1;
+}
+.ECE-184 {
+    color: #025ba1;
+}
+.AP-CSA {
+    color: #025ba1;
+}
+.AP-CSP {
+    color: #025ba1;
+}
