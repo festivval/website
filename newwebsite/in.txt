@@ -7,7 +7,7 @@ paid experience:
 
 nonpaid experience:
 - Event Supervisor/Proctor [Science Olympiad Inc]
-- Test Writer [Science Olympiad Inc]
+- Test Writer (Codebusters B/C) [Science Olympiad Inc]
 - Tournament Director [Quizbowl]
 - President [Quizbowl]
 - Mentor/Panelist/Judge [CipherHacks 2026]

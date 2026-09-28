@@ -7,4 +7,4 @@ genweb2: second.cpp
 	g++ second.cpp -o genweb2 -std=c++20 -Wall -Werror
 
 run:
-	./genweb in.txt style.txt 
+	./genweb in.txt style.txt index.html
