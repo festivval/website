@@ -18,7 +18,7 @@ nonpaid experience:
 projects:
 2026
 - Impressionist: paint program [COMP 4411] *Cpp *OpenGL
-- new website generator: generates this page from .txt [personal] *Cpp
+- new website generator: generates this page from .txt [personal] *Cpp *HTML *CSS *JavaScript
 - (bolunwebsite)<https://bolunthompson.github.io/bolunwebsite/>: Windows NT inspired portfolio website [personal] *HTML *CSS *JavaScript
 - Claw: parallel HNSW program adapted from Wolverine(Zheng et al.) [CS 274] *Cpp
 - SystemF interpreter: terrible implementation with no proofs!!!!! [CSCS 130E] *OCaml
@@ -32,7 +32,7 @@ projects:
 - simple blockchain: Paxos consensus, 5 servers (run locally) [CS 171] *Python
 - Sandwich Conquerors: sandwich-themed 3D FPS [ECE 184] *Unity *C-sharp
 - (Escaping Earth Z)<https://github.com/festivval/escaping-earth-z>: endless 2D zombie shooter for Winter Project Series [ACM at UCSB] *Unity *C-sharp
-- (My Automation App)<https://devpost.com/software/ai-project-0vk4yw>: productivity "app" [SB Hacks XI] *Python *HTML *CSS *JavaScript *Electron
+- (My Automation App)<https://devpost.com/software/ai-project-0vk4yw>: productivity "app" [SB Hacks XI] *Python *HTML *CSS *JavaScript
 
 2024
 - XPATHTEST: web scraper that scrapes all professor names/research areas into .txt or .csv; works for UCLA/UCSB [personal] *Java *Selenium
